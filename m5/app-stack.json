@@ -5,13 +5,13 @@
         "ALBCertificateArn": {
             "Description": "ARN of ACM TLS certificate",
             "Type": "String",
-            "Default": "arn:aws:acm:us-east-1:158826777352:certificate/0efe7d19-57a5-450f-a8e9-0992add78a55",
+            "Default": "arn:aws:acm:us-east-1:935468439062:certificate/fffacc02-8012-4ede-8cdc-31c3f5e8cbb0",
             "ConstraintDescription": "must be a valid ARN"
         },
         "WebTierInstanceType": {
             "Description": "Webserver EC2 instance type",
             "Type": "String",
-            "Default": "t3.micro",
+            "Default": "t2.micro",
             "AllowedValues": [
                 "t2.micro",
                 "t3.micro"
@@ -21,7 +21,7 @@
         "AppTierInstanceType": {
             "Description": "App server EC2 instance type",
             "Type": "String",
-            "Default": "t3.micro",
+            "Default": "t2.micro",
             "AllowedValues": [
                 "t2.micro",
                 "t3.micro"
